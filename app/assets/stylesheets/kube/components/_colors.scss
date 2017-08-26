@@ -1,0 +1,28 @@
+// Text Colors
+.black     { color: var(--color-black); }
+.inverted  { color: var(--color-inverted); }
+.error     { color: var(--color-error); }
+.success   { color: var(--color-success); }
+.warning   { color: var(--color-warning); }
+.focus     { color: var(--color-focus); }
+.aluminum  { color: var(--color-aluminum); }
+.silver    { color: var(--color-silver); }
+.lightgray { color: var(--color-lightgray); }
+.gray      { color: var(--color-gray); }
+.midgray   { color: var(--color-midgray); }
+.darkgray  { color: var(--color-darkgray); }
+
+// Background Colors
+.bg-black      { background-color: var(--color-black); }
+.bg-inverted   { background-color: var(--color-inverted); }
+.bg-error      { background-color: var(--color-error); }
+.bg-success    { background-color: var(--color-success); }
+.bg-warning    { background-color: var(--color-warning); }
+.bg-focus      { background-color: var(--color-focus); }
+.bg-aluminum   { background-color: var(--color-aluminum); }
+.bg-silver     { background-color: var(--color-silver); }
+.bg-lightgray  { background-color: var(--color-lightgray); }
+.bg-gray       { background-color: var(--color-gray); }
+.bg-midgray    { background-color: var(--color-midgray); }
+.bg-darkgray   { background-color: var(--color-darkgray); }
+.bg-highlight  { background-color: var(--color-highlight); }

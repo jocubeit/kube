@@ -1,0 +1,178 @@
+// *** CSS Custom Properties available at runtime via Javascript ***
+
+:root {
+  // WIDTH
+  --w-small: 480px;
+  --w-medium: 600px;
+  --w-big: 740px;
+  --w-large: 840px;
+
+  // Z-INDEX
+  --z-over-content: 100;
+  --z-over-control: 200;
+  --z-over-page: 300;
+  --z-over-screen: 400;
+  --z-over-all: 500;
+
+  // FONT FAMILY
+  --text-font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  --monospace-font-family: Consolas, Monaco, 'Courier New', monospace;
+  --headings-font-family: var(--text-font-family);
+  --buttons-font-family: var(--text-font-family);
+  --input-font-family: var(--text-font-family);
+
+  // COLORS
+  // Text
+  --color-text: #313439;
+  --color-headings: #0d0d0e;
+  // Links
+  --color-link:  #3794de;
+  --color-link-hover: #f03c69;
+  // Button
+  --color-button-primary: #1c86f2;
+  --color-button-primary-disabled: #64adf6;
+  --color-button-primary-hover: #64adf6;
+  --color-button-primary-text: #fff;
+  --color-button-primary-text-disabled: #64adf6;
+  --color-button-secondary: #313439;
+  --color-button-secondary-disabled: #000;
+  --color-button-secondary-hover: #545a62;
+  --color-button-secondary-text: #fff;
+  --color-button-secondary-text-disabled: #787f8b;
+  // States
+  --color-error: #f03c69;
+  --color-success: #35beb1;
+  --color-warning: #f7ba45;
+  --color-focus: #1c86f2;
+  // Extra
+  --color-inverted: #fff;
+  --color-highlight: #edf2ff;
+  // Grayscale
+  --color-black: #0d0d0e;
+  --color-darkgray: #313439;
+  --color-midgray: #676b72;
+  --color-gray: #bdbdbd;
+  --color-lightgray: #d4d4d4;
+  --color-silver: #e0e1e1;
+  --color-aluminum: #f8f8f8;
+
+  // TEXT
+  // Font Size
+  --font-size: 16px;
+  --font-size-smaller: var(--font-size) - 4px;
+  --font-size-small: var(--font-size) - 2px;
+  --font-size-big: var(--font-size) + 2px;
+  --font-size-large: var(--font-size) + 4px;
+  // Baseline
+  --base-line: 24px;
+  --base-line-smaller: 20px;
+  --base-line-small: 20px;
+  --base-line-big: 28px;
+  --base-line-large: 32px;
+  // Margin
+  --text-margin-bottom: var(--font-size);
+
+  // HEADINGS
+  // Font Size
+  // By default: 60, 48, 36, 24, 21, 18, 16
+  --heading-font-size-title: 60px;
+  --heading-font-size-1: 48px;
+  --heading-font-size-2: 36px;
+  --heading-font-size-3: 24px;
+  --heading-font-size-4: 21px;
+  --heading-font-size-5: 18px;
+  --heading-font-size-6: 16px;
+  // Baseline
+  --heading-base-line-title: 64px;
+  --heading-base-line-1: 52px;
+  --heading-base-line-2: 40px;
+  --heading-base-line-3: 32px;
+  --heading-base-line-4: 32px;
+  --heading-base-line-5: 28px;
+  --heading-base-line-6: 24px;
+  // Margin
+  --heading-margin-bottom: var(--font-size);
+
+  // TABLES
+  // Font Size
+  --table-font-size: var(--font-size) - 1px;
+  // Baseline
+  --table-base-line: 24px;
+  // Padding
+  --table-padding-tb: 1rem;
+  --table-padding-rl: 1rem;
+  // Border
+  --table-border: 1px solid rgba(0, 0, 0, .05);
+  // Striped
+  --table-background-striped: var(--color-aluminum);
+
+  // BUTTONS
+  // Font Size
+  --button-font-size: 15px;
+  --button-font-size-smaller: var(--button-font-size) - 4px;
+  --button-font-size-small: var(--button-font-size) - 2px;
+  --button-font-size-big: var(--button-font-size) + 2px;
+  --button-font-size-large: var(--button-font-size) + 4px;
+  // Baseline
+  --button-base-line: 20px;
+  // Height
+  --button-height: 40px;
+  --button-height-small: 36px;
+  --button-height-big: 48px;
+  --button-height-large: 56px;
+  // Padding
+  --button-padding-tb: 8px;
+  --button-padding-rl: 20px;
+  --button-padding-small-tb: 6px;
+  --button-padding-small-rl: 20px;
+  --button-padding-big-tb: 13px;
+  --button-padding-big-rl: 24px;
+  --button-padding-large-tb: 20px;
+  --button-padding-large-rl: 36px;
+  // Weight
+  --button-font-weight: 500;
+  // Radius
+  --button-border-radius: 3px;
+
+  // INPUTS
+  // Font Size
+  --input-font-size: 15px;
+  --input-font-size-smaller: var(--input-font-size) - 4px;
+  --input-font-size-small: var(--input-font-size) - 2px;
+  --input-font-size-big: var(--input-font-size) + 2px;
+  --input-font-size-large: var(--input-font-size) + 4px;
+  // Baseline
+  --textarea-base-line: var(--base-line);
+  // Height
+  --input-height: 40px;
+  --input-height-small: 36px;
+  --input-height-big: 48px;
+  --input-height-large: 56px;
+  // Padding
+  --input-padding-rl: 12px;
+  --input-padding-small-rl: 12px;
+  --input-padding-big-rl: 12px;
+  --input-padding-large-rl: 12px;
+  --input-textarea-padding-tb: 8px;
+  // States
+  --input-border-width: 1px;
+  --input-border-color: var(--color-lightgray);
+  --input-background-color: #fff;
+  --input-box-shadow: none;
+  --input-focus-background-color: #fff;
+  --input-focus-border-color: var(--color-focus);
+  --input-focus-box-shadow: 0 0 1px var(--color-focus) inset;
+  --input-error-background-color: var(--color-error);
+  --input-error-border-color: var(--color-error);
+  --input-error-focus-box-shadow: 0 0 1px var(--color-error) inset;
+  --input-success-background-color: var(--color-success);
+  --input-success-border-color: var(--color-success);
+  --input-success-focus-box-shadow: 0 0 1px var(--color-success) inset;
+  --input-disabled-opacity: .6;
+  --input-disabled-color: rgba(0, 0, 0, .5);
+  // Radius
+  --input-border-radius: 3px;
+
+  // OVERLAY
+  --overlay-background-color: rgba(#fff, .95);
+}
