@@ -4,7 +4,7 @@ The Kube gem wraps the Imperavi Kube CSS & JS framework (hereafter Kube framewor
 
 In order to make the variables available at runtime I decided to convert the majority of the SASS variables to CSS Custom Properties. In doing so you can now get and set CSS Custom Property values using Javascript. Unfortunately I couldn't find an acceptable workaround for the remaining 5 SASS variables that are used to generate the grid. However, I didn't find this particularly necessary in my projects anyway.
 
-CSS Custom Properties permit the declaration and usage of cascading variables in stylesheets. [caniuse.com](https://caniuse.com/#feat=css-variables) reports global support at 75.66%. The main exceptions are Internet Explorer and Opera Mini. Edge 15 has partial support but only due to there being bugs present, so expect this will be fixed soon and full support will be present in that browser too.
+CSS Custom Properties permit the declaration and usage of cascading variables in stylesheets. [caniuse.com](https://caniuse.com/#feat=css-variables) reports global support at 87.73%. The main exceptions are Internet Explorer, Samsung Internet (v4) and Opera Mini. IE represents 2.76% of global browser usage, Opera Mini represents 2.66% and Samsung Internet less than 1%. Edge 15 has partial support but only due to there being bugs present, however Edge versions 16, 17 and 18 have full support.
 
 ### Please Note
 
