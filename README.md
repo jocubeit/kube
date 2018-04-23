@@ -155,4 +155,4 @@ This gem is also available as open source under the terms of the [MIT License](h
 
 ## Copyright
 
-Copyright 2017 Jurgen Jocubeit
+Copyright 2017-2018 Jurgen Jocubeit
